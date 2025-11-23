@@ -51,6 +51,7 @@ public class EmployeeMapper {
                 .hireDate(e.getHireDate())
                 .status(e.getStatus())
                 .salary(e.getSalary())
+                .phone(e.getPhone())
                 .departmentName(e.getDepartment() != null ? e.getDepartment().getName() : null)
                 .departmentId(e.getDepartment() != null ? e.getDepartment().getId() : null)
                 .roles(
